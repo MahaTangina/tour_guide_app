@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/shatgombuj"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="বাগেরহাট"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:text="১। থাকার জয়াগা এর সমস্যা থাকায় , খুলনা এর হোটেল বুক করা উচিত।
+২। হোটেল এ খাওয়ার খরচ কম তা মাথায় রাখতে হবে, তাই বাইরের হোটেল খাইতে হবে।
+৩। লোকাল বাসে যাওয়া যাবে নাহ।
+৪। ভাল বাসের তালিকা।
+       সায়েদাবাদঃ ফাল্গুনী , দোলা ।
+        গাবতলীঃ   সাকুরা , হানিফ , দিগন্ত (এ সি)।
+৫। মাজারে পিছনের ঘাটে কুমির উঠে , তাই পিসনে যাইতে হবে।
+৬। জ্যান্ত কোন প্রানি , কুমিরের খাওয়ার জন্য দেওয়া যাবে নাহ।
+৭। সুন্দরবনে মংলা জোনের পাশাপাশি শরণখোলা রেঞ্জে ও যাওয়া উচিত, এতে বাঘ, অজগরের দেখা পাওয়া যায়ে।
+৮। টুরিস্ট পুলিশ নম্বরঃ ০১৭৬৯৬৯৩০১৮
+
+"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

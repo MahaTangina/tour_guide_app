@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/jaflong"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="সিলেট"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:text="১। ট্রেনে গেলে চারপাশ উপভগ করা যায়।
+২। চেষ্টা করা উচিত সরকারী গেস্ট পাওয়া।
+৩। রিক্সা তে ভ্রমন উপভোগ্য এবং সস্তা ।
+৪। অনেকে সব জয়গা সারাদিন ৫০০/৪০০ টাকাতে  ঘুরাতে চায় , এটা এড়িয়ে চলা উচিত। এর মাধ্যমে প্রতারনা করা হয়ে।
+৫।নদীর পানিতে নামতে সতর্ক থাকতে হবে, উপর থেকে শান্ত থাকলেও, নিচে স্রোত থাকে।
+৬। সাথে শুকনো খাবার রাখতে হবে।
+৭।  টুরিস্ট পুলিশ নম্বরঃ ০১৭৯৬৬৯০৭১৮
+
+"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
